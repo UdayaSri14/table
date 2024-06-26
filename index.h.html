@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend align ="center"><b>Signup</b></legend> 
+                    <label for="Username" class="label"><b>Enter Your Name:</b></label> 
+                    <input type="text" name="name"  id="Username" style="width:160px"/><br><br> 
+                    <label for="Useremail" class="label"><ion-icon name="mail-outline"></ion-icon><b>Enter Your Email:</b></label>  
+                    <input type="email" name="name"  id="Useremail" style="width:160px"/><br><br>     
+                    <label for="userpassword" class="label"><ion-icon name="key-outline"></ion-icon><b>Enter Your Password:</b></label>  
+                    <input type="password" name="password" id="userpassword" style="width:160px"/><br><br>    
+                    <label for="Usermobile number" class="label"><ion-icon name="call-outline"></ion-icon><b>Enter Your Mobile Number:</b></label>  
+                    <input type="number" name="mobile number" id="Usermobile number" style="width:160px"/><br><br> 
+                    <label for="language"><b>Select Your FavouriteLanguage:</b></label>
+                    <select name="Language" id="Langugae" style="width:160px">
+                    <option value="Python">Python</option>  
+                    <option value="Java">Java</option>  
+                    <option value="C">C</option>  
+                    <option value="C++">C++</option>  
+                    <option value="Ruby">Ruby</option>
+                    <option value="Go">Go</option>
+                    <option value="other">Other</option>
+                    </select><br><br> 
+                    <label><b>Select Gender</b></label><br>
+                    <input type="radio" name="gender" id="female" value="female"/> 
+                    <label for="female">Female</label><br>
+                    <input type ="radio" name ="gender" id="male" value="male"/>
+                    <label for="male">Male</label><br>
+                    <input type ="radio" name="gender" id="others" value="other"/>
+                    <label for ="others">Other</label><br>
+                    <input type ="submit" value="Submit">
+        </fieldset> 
+    </form>
+ </body>
+</html>
